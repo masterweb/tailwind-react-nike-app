@@ -3,6 +3,8 @@ import Hero from "./sections/Hero";
 import PopularProducts from "./sections/PopularProducts";
 import SpecialOffer from "./sections/SpecialOffer";
 import SuperQuality from "./sections/SuperQuality";
+import CustomerReviews from "./sections/CustomerReviews";
+import Subscribe from "./sections/Subscribe";
 
 const  App = ()  => (
   <main className="relative">
@@ -18,6 +20,12 @@ const  App = ()  => (
     </section>
     <section className="padding">
       <SpecialOffer />
+    </section>
+    <section className="bg-pale-blue padding">
+      <CustomerReviews />
+    </section>
+     <section className="padding">
+      <Subscribe />
     </section>
 
   </main>

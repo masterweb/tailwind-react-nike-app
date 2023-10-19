@@ -20,7 +20,7 @@ const Nav = () => {
                   <li key={item.label}>
                     <a 
                       href={item.href}
-                      className='font-monts errat leading-normal text-lg text-slate-gray'
+                      className='font-montserrat leading-normal text-lg text-slate-gray'
                     >
                       {item.label}
                     </a>
@@ -28,6 +28,11 @@ const Nav = () => {
                 ))
               }
             </ul>
+            <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24'>
+              <a href='/'>Sign in</a>
+              <span>/</span>
+              <a href='/'>Explore now</a>
+            </div>
             <div className='hidden max-lg:block'>
               <img 
                 src={hamburger}
