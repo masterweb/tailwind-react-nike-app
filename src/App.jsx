@@ -5,6 +5,7 @@ import SpecialOffer from "./sections/SpecialOffer";
 import SuperQuality from "./sections/SuperQuality";
 import CustomerReviews from "./sections/CustomerReviews";
 import Subscribe from "./sections/Subscribe";
+import Footer from "./sections/Footer";
 
 const  App = ()  => (
   <main className="relative">
@@ -26,6 +27,9 @@ const  App = ()  => (
     </section>
      <section className="padding">
       <Subscribe />
+    </section>
+    <section className="padding bg-black">
+      <Footer />
     </section>
 
   </main>
